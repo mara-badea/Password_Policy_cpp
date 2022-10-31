@@ -12,7 +12,7 @@ Creating a library to add additional security elements for a web app. These pass
 
   The password policies are:
   
-  <p>-<b>Length</b>: it can specify either the minimum length or the minimum and maximum length; length <min_length> or length <min_length> <max_length></p>
+  <p>-<b>Length</b>: it can specify either the minimum length or the minimum and maximum length; length min_length or length min_length, max_length</p>
   <p>-<b>Class</b>: it specifies how many different classes of characters the password must have at least. The classes are: non-capital letters, capital letters, digits and special characters.</p>
   <p>-<b>Must Include</b>: the password must include at least a character from the specified class of characters: "a" (non-capital letters), "A" (capital letters), "0" (digits), "$" (special characters). </p>
   <p>-<b>Must Not Include</b>: the password must not include any character from the specified class of characters: "a" (non-capital letters), "A" (capital letters), "0" (digits), "$" (special characters).</p>
